@@ -2,14 +2,43 @@ body{
     background: black;
 }
 
-.rojo{
-    
-    background: white;
+.postal{
+    display: contents;
+    justify-content: center
+}
+
+.rojo{ background: white;
     width: 500px;
     margin: auto;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.arriba{
+    display: flex;
+    justify-content:space-around;
+    
+}
+img{width: 75px;
+
 
 
 }
-img{width: 50px;
-
+.medio{
+    display: flex;
+    justify-content: space-around;
 }
+.inputs{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.flexbutton{
+    display: flex;
+    justify-content: center;
+}
+    
+ 
+
